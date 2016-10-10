@@ -1,6 +1,7 @@
 create or replace
-PACKAGE BODY "YPKG_PROMOCIONES"
-/* $Header:: /PRODUCCION/PAQUETES/BODY/YPKG_PROMOCIONES_b.sql 9 1.1.3 12.09.16 14:41 PSADM                                                                                                                                                         $ */
+PACKAGE BODY 
+/* $Header:: /PRODUCCION/PAQUETES/BODY/YPKG_PROMOCIONES_b.sql 9 1.1.4 10.10.16 17:40 ICACERES                                                                         $ */
+"YPKG_PROMOCIONES"
 IS
 -- MODIFICATION HISTORY
 -- Person Date Comments
