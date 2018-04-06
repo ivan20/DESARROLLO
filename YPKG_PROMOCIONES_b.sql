@@ -1,6 +1,6 @@
 create or replace
 PACKAGE BODY 
-/* $Header:: /PRODUCCION/PAQUETES/BODY/YPKG_PROMOCIONES_b.sql 9 1.1.4 10.10.16 17:40 ICACERES                                                                         $ */
+/* $Header:: /PRODUCCION/PAQUETES/BODY/YPKG_PROMOCIONES_b.sql 9 1.1.4 06.04.18 17:40 ICACERES                                                                         $ */
 "YPKG_PROMOCIONES"
 IS
 -- MODIFICATION HISTORY
@@ -36,7 +36,7 @@ IS
 -- Carlos Ca?ar 16.10.2015  Modificacion de la Funciones fn_queryPromoNew y fv_devuelveListaCat cambio de tama?o de variables
 -- Carlos Ca?ar 04.12.2015  Modificacion de la Funciones fn_retornaprecio1 para PAY CHANNEL(Adicional_Salinas)
 -- Daniel Solano         10.12.2015  Creacion de la Funcion YFN_CITEMCESDESR para ver si viene de un CESDER
--- Daniel Solano         17.02.2016  Creación de la Funcion FN_RETORNAPRECIO1EMP para Empleados TVC para sacar la mensualidad sin descuentos
+-- Daniel Solano         17.02.2016  CreaciÃ³n de la Funcion FN_RETORNAPRECIO1EMP para Empleados TVC para sacar la mensualidad sin descuentos
 -----------------------------------------------------------------------------------------------------------------------------------
  -- cache table used in: fv_devuelveListaCat
  gt_DevuelveListaCats cTypes.VTableV;
